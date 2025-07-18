@@ -1,6 +1,6 @@
 ## Cypress E-commerce Automation Project
 
-This project is a test automation suite built with Cypress for a demo e-commerce website. It validates the most important user interactions on a webshop — from login to checkout and logout.
+This project is a **test automation suite built with the Cypress framework** for a demo e-commerce website. It validates the most important user interactions on a webshop — from login to checkout and logout.
 All tests simulate real-life usage of the website and ensure that key functionalities remain stable and bug-free across updates.
 
 ---
