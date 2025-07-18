@@ -20,22 +20,24 @@ Ensures users can log out safely and that their session is properly cleared from
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have Node.js and Cypress installed. Then:
 
 ```bash
 npx cypress open
+```
 
 The Cypress test runner will open. You can run tests individually from the GUI, or use:
 
+```bash
 npx cypress run
 
 ```
 
 ----
 
-### 🔧 What could have been improved?
+###  What could have been improved?
 
 Honestly, there’s always room for improvement. 
 While the core user flow is fully tested, I could have added:
