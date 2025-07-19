@@ -55,6 +55,7 @@ While the core user flow is fully tested, I could have added:
 - Some cleaner structure and refactoring
 - Integration with GitHub Actions to automatically run tests on each push
 
+_Last updated on July 19_
 
 
 
