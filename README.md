@@ -18,6 +18,14 @@ Covers the complete purchase workflow — validating each step of the checkout t
 ### Logout process
 Ensures users can log out safely and that their session is properly cleared from the system.
 
+### Positive Tests
+- Successful login with a valid email and password.
+
+#### Negative Tests(newly added)
+The negative tests check that the login form works correctly when wrong or empty data is used. They make sure that users can't log in with invalid info and that error messages are shown as expected.
+- One of the negative tests includes typing into a disabled input field using the `{ force: true }` option, to simulate unexpected user behavior and ensure proper validation.
+
+
 ---
 
 ## How to Run
@@ -42,7 +50,7 @@ npx cypress run
 Honestly, there’s always room for improvement. 
 While the core user flow is fully tested, I could have added:
 
-- Negative test cases (e.g., invalid login attempts or broken flows)
+- ~~Negative test cases (e.g., invalid login attempts or broken flows)~~ – Implemented later with comprehensive coverage
 - Tests for additional features like account creation or order history
 - Some cleaner structure and refactoring
 - Integration with GitHub Actions to automatically run tests on each push
