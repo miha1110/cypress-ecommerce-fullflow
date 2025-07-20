@@ -55,7 +55,7 @@ The idea was to write clean, isolated tests that mirror real-world scenarios and
 
 ---
 
-###  What could have been improved?
+##  What could have been improved?
 
 Honestly, there’s always room for improvement. 
 While the core user flow is fully tested, I could have added:
