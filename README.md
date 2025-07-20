@@ -43,9 +43,6 @@ npx cypress run
 
 ```
 
-### `## Idea / Workflow`
-
-```md
 ## Idea / Workflow
 
 This project was built to simulate how a real user interacts with an e-commerce website — from logging in, to searching products, checking out, and logging out.I started by covering the main positive flows (valid login, cart, checkout), then added negative tests to check how the system reacts to invalid or unexpected input.
