@@ -43,13 +43,17 @@ npx cypress run
 
 ```
 
+
+---
+
 ## Idea / Workflow
 
 This project was built to simulate how a real user interacts with an e-commerce website — from logging in, to searching products, checking out, and logging out.I started by covering the main positive flows (valid login, cart, checkout), then added negative tests to check how the system reacts to invalid or unexpected input.
 I used these tests to simulate edge cases and verify that the app displays proper error messages and blocks unwanted behavior.
 The idea was to write clean, isolated tests that mirror real-world scenarios and help ensure the website is stable and secure.
 
-----
+
+---
 
 ###  What could have been improved?
 
@@ -60,8 +64,6 @@ While the core user flow is fully tested, I could have added:
 - Tests for additional features like account creation or order history
 - Some cleaner structure and refactoring
 - Integration with GitHub Actions to automatically run tests on each push
-
-_Last updated on July 19_
 
 
 
