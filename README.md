@@ -13,7 +13,7 @@ Tests the basic login functionality to ensure authorized users can access their 
 Validates the search bar functionality and confirms that selected products are correctly added to the shopping cart.
 
 ### Cart and checkout flow
-Covers the complete purchase workflow — validating each step of the checkout to ensure the site responds as expected under typical user actions.
+Simulates the full purchase process, from adding items to the cart to completing the order, ensuring the website behaves correctly at each step. This helps verify that typical user actions during checkout are handled smoothly and without errors.
 
 ### Logout process
 Ensures users can log out safely and that their session is properly cleared from the system.
