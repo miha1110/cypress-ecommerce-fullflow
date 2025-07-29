@@ -16,7 +16,7 @@ Validates the search bar functionality and confirms that selected products are c
 Simulates the full purchase process, from adding items to the cart to completing the order, ensuring the website behaves correctly at each step. This helps verify that typical user actions during checkout are handled smoothly and without errors.
 
 ### Logout process
-Ensures users can log out safely and that their session is properly cleared from the system.
+The test clicks on the logout button, confirms redirection to the login or homepage, and verifies that session data is no longer accessible.
 
 ### Positive Tests
 - Successful login with a valid email and password.
