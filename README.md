@@ -7,7 +7,7 @@ All tests simulate real-life usage of the website and ensure that key functional
 
 ##  Features Covered
 ### Login with valid credentials
-Tests the basic login functionality to ensure authorized users can access their accounts reliably.
+Tests the basic login functionality to ensure authorized users can access their accounts reliably. The test enters a valid email and password, submits the login form, and checks for successful redirection or confirmation.
 
 ### Product search and add to cart
 Validates the search bar functionality and confirms that selected products are correctly added to the shopping cart.
