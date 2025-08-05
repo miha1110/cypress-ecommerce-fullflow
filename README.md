@@ -42,7 +42,6 @@ npx cypress run
 
 ```
 
-
 ---
 
 ## Idea / Workflow
