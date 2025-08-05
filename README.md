@@ -25,7 +25,6 @@ The test clicks on the logout button, confirms redirection to the login or homep
 The negative tests check that the login form works correctly when wrong or empty data is used. They make sure that users can't log in with invalid info and that error messages are shown as expected.
 - One of the negative tests includes typing into a disabled input field using the `{ force: true }` option, to simulate unexpected user behavior and ensure proper validation.
 
-
 ---
 
 ## How to Run
