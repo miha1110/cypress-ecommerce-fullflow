@@ -48,7 +48,7 @@ npx cypress run
 
 I started this project with the goal of realistically simulating how a typical user interacts with an e-commerce website. I wanted to go through the full journey: logging in, browsing or searching for products, adding items to the cart, checking out, and finally logging out.
 At first, I focused on the positive flows — the ideal scenarios where the user inputs correct data and everything works as expected. This helped me validate that the core functionalities were working smoothly.
-After that, I added negative test cases to see how the system behaves when something goes wrong. For example: invalid login credentials, empty search results, trying to check out with an empty cart, or entering invalid payment info. These edge cases are important to check how well the app handles errors, and whether it displays proper messages or blocks unwanted behavior.
+After that, I added negative test cases to see how the system behaves when something goes wrong. For example: invalid login credentials, empty search results, trying to check out with an empty cart, or entering invalid payment info.
 Throughout the process, my goal was to write clean, isolated test cases that reflect real-world user actions. This makes the test suite easier to maintain, while also giving confidence that the site behaves correctly under both normal and unexpected conditions. It’s a way to ensure the app is not only functional, but also stable and secure from a user's perspective.
 
 ---
