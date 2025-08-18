@@ -61,6 +61,3 @@ While the core user flow is fully tested, I could have added:
 - Tests for additional features like account creation or order history
 - Some cleaner structure and refactoring
 - Integration with GitHub Actions to automatically run tests on each push
-
-
-
