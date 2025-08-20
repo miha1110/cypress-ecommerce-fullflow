@@ -41,7 +41,6 @@ The Cypress test runner will open. You can run tests individually from the GUI, 
 npx cypress run
 
 ```
-
 ---
 
 ## Idea / Workflow
